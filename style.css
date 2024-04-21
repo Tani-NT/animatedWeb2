@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+    font-family: "gilroy";
+}
+#main{
+    width: 100%;
+}
+#nav{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 2vw 10vw;
+}
+#nleft{
+    display: flex;
+    gap: 30px;
+}
+#nav a{
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #000;
+}
+#ncenter{
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#hero{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 14vw;   
+    padding: 0 10vw;
+}
+#heroleft{
+    width: 10vw;
+}
+#heroleft p{
+    font-size: 10px;
+    opacity: .5;
+    font-weight: 800;
+    line-height: 1;
+    text-transform: capitalize;
+    padding: .5vw 0;
+}
+#imageleft{
+    position: relative;
+    width: 100%;
+    height: 15vw;
+    overflow: hidden;
+}
+#imageleft img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#herocenter{
+    position: relative;
+    width: 30vw;
+    min-height: 42vw;
+}
+#imgntext{
+    width: fit-content;
+    height: fit-content;
+}
+#headings{
+    z-index: 999;
+}
+#herocenter h1{
+    letter-spacing: -.4vw;
+    font-size: 6vw;
+    line-height: 1;
+    font-weight: 400;
+}
+#herocenter #headings{
+    position: absolute;
+    top: -20%;
+    left: -18%;
+}
+#herocenter img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#herocenter p{
+    font-size: 1.2vw;
+    width: 40%;
+    letter-spacing: -.1vw;
+}
+#herobtn{
+    display: flex;
+    align-items: center;
+    gap: .5vw;
+}
+
+#circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.5vw;
+    height: 2.5vw;
+    color: #b5b5b5;
+    border-radius: 50%;
+    border: 2px solid #b5b5b5;
+}
+#motive{
+    padding: 3vw 10vw;
+    margin-top: 7vw;
+    display: flex;
+    justify-content: space-between;
+}
+#motive span{
+    font-size: 10vw;
+}
+#motive p{
+    position: relative;
+    letter-spacing: -.15vw;
+    right: 0;
+    width: 85%;
+    font-weight: 500;
+    line-height: 1.7;
+    font-size: 2vw;
+    text-align: right;
+}
+#motive span{
+    display: inline-block;
+    border-radius: 50px;
+    margin: 0 10px;
+    background-color: rebeccapurple;
+    margin-bottom: -12.5px;
+}
+#one{
+    width: 60px;
+    height: 45px;
+    background-image: url(./images/bluegirl.jpg);
+    background-size: cover;
+    background-position: 0 60%;
+}
+#two{
+    width: 90px;
+    height: 50px;
+    background-image: url(./images/shaljam.jpg);
+    background-size: cover;
+    background-position: 0 50%;
+}
+#three{
+    width: 60px;
+    height: 45px;
+    background-image: url(./images/grass.jpg);
+    background-size: cover;
+    background-position: 0 60%;
+}
+#pictures{
+    padding: 3vw;
+    padding-left: 14vw;
+    padding-right: 12vw;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5vw;
+}
+#pictures h1{
+    font-weight: 100;
+    font-size: 2vw;
+    letter-spacing: -.1vw;
+}
+#pictures p{
+    font-size: 14px;
+    opacity: .8;
+}
+#firstpic{
+    width: 17vw;
+}
+#img1{
+    width: 100%;
+    height: 25vw;
+    margin-bottom: 2vw;
+    background-image: url(./images/sea.jpg);
+    background-size: cover;
+}
+#secondpic{
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    align-items:end;
+}
+#secondpic p{
+    width: 50%;
+    text-align: right;
+}
+#img2{
+    width: 100%;
+    height: 40vw;
+    margin-bottom: 2vw;
+    background-image: url(./images/cloud.jpg);
+    background-size: cover;
+}
+#banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5vw;
+}
+#banner #bimg{
+    width: 55vw;
+    height: 30vw;
+    background-image: url(./images/bottle.jpg);
+    background-size: cover;
+    background-position: 0% 75%;
+}
+#btext{
+    margin-left: 5vw;
+}
+#btext h1{
+    font-weight: 400;
+    font-size: 2vw;
+    letter-spacing: -.15vw;
+}
+#btext p{
+    margin-top: .5vw;
+    font-size: 14px;
+    opacity: .8;
+    width: 60%;
+}
+#future{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+#future video{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+}
+#ftext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 9999;
+    background-color: #fff;
+    padding: 1vw 2vw;
+    border-radius: 1vw;
+}
+#ftext button{
+    border: 1px solid #000;
+    opacity: .4;
+    background-color: #fff;
+    padding: .8vw 1.7vw;
+    font-size: .7vw;
+    font-weight: 700;
+    margin-top: .3vw;
+    border-radius: 100px;
+}
